@@ -58,7 +58,7 @@
     "prepack": "oclif-dev manifest && oclif-dev readme",
     "postpack": "rm -f oclif.manifest.json",
     "postpublish": "npm run publish-npm",
-    "publish-npm": "npm publish --access public --ignore-scripts --@zsevic:registry='https://registry.npmjs.org'",
+    "publish-npm": "npm publish --access public --ignore-scripts --@pksjce:registry='https://registry.npmjs.org'",
     "test": "nyc mocha --forbid-only \"test/**/*.test.js\"",
     "posttest": "npm run lint -- --fix",
     "version": "oclif-dev readme && git add README.md"
