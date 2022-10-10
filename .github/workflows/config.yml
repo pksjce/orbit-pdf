@@ -34,6 +34,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
+        env:
+          GH_PAT: ${{secrets.GITHUB_TOKEN}}
       - name: Set package registry
         run: npm config set registry https://npm.pkg.github.com
         env:
