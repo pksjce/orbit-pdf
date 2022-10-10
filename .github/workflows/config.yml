@@ -42,5 +42,3 @@ jobs:
         run: npm set //registry.npmjs.org/:_authToken ${{ secrets.NPM_TOKEN }}
       - name: Publish package to Github and Npm package registries
         run: npm whoami; npm publish
-        env:
-          GH_PAT: ${{secrets.GITHUB_TOKEN}}
