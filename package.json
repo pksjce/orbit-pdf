@@ -1,11 +1,11 @@
 {
-  "name": "@zsevic/orbit-pdf",
+  "name": "@pksjce/orbit-pdf",
   "description": "CLI tool for converting Orbit HTML resume to pdf",
   "version": "1.0.0",
   "bin": {
     "orbit-pdf": "./bin/run"
   },
-  "bugs": "https://github.com/zsevic/orbit-pdf/issues",
+  "bugs": "https://github.com/pksjce/orbit-pdf/issues",
   "devDependencies": {
     "@oclif/dev-cli": "^1.26.0",
     "@oclif/test": "^1.2.8",
@@ -35,7 +35,7 @@
     "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/zsevic/orbit-pdf",
+  "homepage": "https://github.com/pksjce/orbit-pdf",
   "husky": {
     "hooks": {
       "pre-commit": "npm run version"
